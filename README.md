@@ -13,16 +13,16 @@ How to run: On the terminal, type drracket ChessSubmission.scm & . Hit Ctrl+R , 
 
 Files : 
 
-	boardGUI.scm -> This is the file where the GUI of the board(displaying the movement etc. ) is taken care of.
+boardGUI.scm -> This is the file where the GUI of the board(displaying the movement etc. ) is taken care of.
 	
-	evaluate.scm -> This is the file which holds the heuristic evaluation function of the board used by the minimax algorithm.(Uses syntax.scm (see below))
+evaluate.scm -> This is the file which holds the heuristic evaluation function of the board used by the minimax algorithm.(Uses syntax.scm (see below))
 	
-	syntax.scm -> Just some macros/syntactic-sugar for list-comprehensions and for loops
+syntax.scm -> Just some macros/syntactic-sugar for list-comprehensions and for loops
 	
-	minimax.scm -> The code for implementing the minimax algorithm
+minimax.scm -> The code for implementing the minimax algorithm
 	
-	validMoves.scm -> Checks for validity of possible moves at any point of time.
+validMoves.scm -> Checks for validity of possible moves at any point of time.
 	
-	makeMoves.scm -> Checks for validity(see validMoves) and makes a move.
+makeMoves.scm -> Checks for validity(see validMoves) and makes a move.
 	
-	ChessSubmission.scm -> The main file(Has all the other forementioned files as dependencies). It defines the basic image buttons and image containers and actually calls the initial GUI. 
+ChessSubmission.scm -> The main file(Has all the other forementioned files as dependencies). It defines the basic image buttons and image containers and actually calls the initial GUI. 
