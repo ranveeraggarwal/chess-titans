@@ -1,9 +1,9 @@
 Chess-Titans
 ============
 
-Team members: Tarun Kathuria (110110028)
-	      Ranveer Aggarwal (120050020)
+Ranveer Aggarwal 
 
+Tarun Kathuria
 
 Brief description of the project: We have implemented the classic game of Chess. By default, the game is supposed to be a 1 player game which uses the minimax algorithm with alpha-beta pruning for finding an optimal move upto a certain depth(default 2). However, both the depth and the mode can be changed to 2 player as well.
 
